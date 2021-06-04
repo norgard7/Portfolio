@@ -1,0 +1,243 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* sets 1rem equal to 10px */
+html {
+    font-size: 62.5%;
+}
+/* This is my subtitle, it contains coder, climber, mom */
+/* h2 {
+    background-color: #B0CDB6;
+    padding: .5rem;
+    font-size: 2.5rem;
+    display: inline-block;
+    
+} */
+h3 {
+    font-size: 3rem;
+}
+
+/* This is my about me paragraph */
+.paragraph {
+    width: 70%;
+    font-size: 2.0rem;
+    margin-top: 15px;
+    margin-left: 2rem;
+  
+  
+}
+p {
+    font-size: 1.7rem;
+}
+/* styling for my header navbar location */
+
+/* styling-font color for ul li a*/
+.nav-link {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin-right: 2rem;
+
+}
+ul li a {
+    text-decoration: none;
+}
+
+/* decorative image at the top of page, doesn't require alt tag */
+
+.header-image {
+    width: 110%;
+    height: 5%;
+}
+
+#testimonials {
+    background-color: #B0CDB6;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #545556;
+    text-align: center;
+  }
+  
+ .card-img-top {
+     width: 100%;
+     height: 60%;
+ }
+
+  /* .testimonial-desc {
+    border: 3px black solid;
+     width: 45%;
+     height: 45%;
+  } */
+/* sea turtle image formating */
+/* .surf-image {
+    height: 40rem;
+    width: 100%;
+    border:#B0CDB6 solid 5px;
+    
+} */
+
+/* small images: LED wall, calculator, pastel puzzle, run buddy */
+/* .sml-image {
+    height: 28rem;
+    border:#B0CDB6 solid 5px;
+} */
+
+/* subtitle header container (coder, climber, mom) */
+/* .container {
+    position: relative;
+    display: flexbox;
+} */
+
+/* contains styling for titles for each image */
+/* .content-container {
+    background-color: #B0CDB6;
+    display:inline-block;
+    position:absolute;
+    bottom: 2rem;
+    left: 0;
+    padding: 1rem;
+} */
+
+/* contains all 5 images in work section */
+/* .all-image-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;   
+} */
+/* contains two images side by side */
+/* .small-image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 2rem;
+} */
+/* sets all image opacity to 50% */
+/* .image-box {
+    position: relative;
+    opacity: 0.5;
+} */
+
+  /* all images on hover become 100% colorful again */
+/* .image-box:hover {
+    opacity: 1.0;
+    cursor: pointer;
+  } */
+
+/* aligns the section headers on teh left side of the page */
+/* .section-header{
+    width: 25%;
+    border-right: .5rem solid rgb(83, 81, 81);
+    font-size: 4rem;
+    color: rgb(83, 81, 81);
+    text-align: right;
+    padding-right: 1rem;
+} */
+/* puts main content to the right side of hte page */
+/* .main-content {
+    width: 70%;
+    margin-left: 2rem;
+    font-size: 2rem;
+} */
+.social-icon {
+    margin: 20px 10px;
+    font-size: 25px;
+    color: #545556;
+  }
+  
+  /* @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  } */
+
+
+/* this was added as a way to clean up the spacing when in a mobile version */
+.break {
+    margin-right: -64px;
+    flex-basis: 0;
+}
+
+/* this spaces out the 3 main sections */
+.section-box {
+    display: flex;
+    margin-bottom: 2rem;
+}
+/* class for all my H4, probably didn't need. */
+.box-title {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+/* h4 paragraph font size */
+.box-title p {
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:992px) {
+    .sml-image {
+        width: 100%;
+    }
+    .first-image {
+        margin-bottom: 2rem;
+    }
+    .footer-container ul {
+        flex-wrap: wrap;
+    }
+    .break {
+        flex-basis: 100%;
+        height: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    h1 {
+       width: 100%;
+        top: 0%;
+        right: 0%;
+    }
+    header {
+        padding: 0;
+    }
+    header nav {
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+    .section-header {
+        width: 100%;
+        border-right: none;
+        border-bottom: dotted 7px #B0CDB6;
+        padding-right: none;
+        text-align: center;
+    }
+    .section-box {
+        flex-direction: column;
+    }
+    #break {
+        height: 0;
+    }
+    .footer-container ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        
+       
+    }
+}
