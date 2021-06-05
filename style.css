@@ -28,15 +28,17 @@ p {
 /* Navbar  */
 .navbar {
     background-color: #B0CDB6;
+   
 }
 
 /* styling-font color for ul li a*/
 .nav-link {
-    font-size: 1.8rem;
-    text-decoration: underline;
+    font-size: 2rem;
     margin-right: 2rem;
     color:#545556 ;
-
+}
+.nav-link:hover {
+    color: #fff;
 }
 ul li a {
     text-decoration: none;
@@ -91,7 +93,7 @@ ul li a {
   /* font awesome images for facts */
   
   .icon-img {
-    color: #545556;
+    color: #2f5d62;
     margin-bottom: 1rem;
   }
   
@@ -109,30 +111,33 @@ ul li a {
 #my-work {
     color:#545556;
     font-size: 4.5rem;
-    /* padding: 2%; */
     display: block;
     text-align: center; 
 }
 
-#testimonials {
-    background-color: #B0CDB6;
-  }
-  
-  .testimonial-text {
+
+  .work-text {
     font-size: 3rem;
     line-height: 1.5;
     color: #545556;
     display: inline-block;
     text-align: right; 
   }
-.testimonial-para {
-    text-align: right;
+.work-para {
+    text-align: center;
     color: #545556;
+    padding: 3%;
 }
-button {
+.btn {
     width: 25%;
     height: 8%;
     font-size: 1.5rem;
+    border: #2f5d62 2px solid;
+    
+}
+.btn:hover {
+    background-color: #2f5d62;
+    color: #fff;
 }
   
   /* images */
@@ -146,20 +151,19 @@ button {
      border-radius: 100%;
      margin: 5%;
  }
- .testimonial-image {
+ .project-image {
      height: 95%;
      width: 45%;
-     
-   
  }
 
- 
-
+/* footer social icons */
 .social-icon {
     margin: 20px 10px;
     font-size: 25px;
-    color: #545556;
+    color: #2f5d62;
   }
+
+
   
   /* @media (max-width: 1028px) {
   
