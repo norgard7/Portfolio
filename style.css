@@ -112,10 +112,10 @@ ul li a {
 
   .work-text {
     font-size: 3rem;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #545556;
     display: inline-block;
-    text-align: right; 
+    text-align: center;
   }
 .work-para {
     text-align: center;
