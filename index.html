@@ -103,10 +103,11 @@
                     <h2 class="work-text">Daily Planner</h2>
                     <p class="work-para">This is a planner that can be used daily during the hours of 9-5(typical workday hours). It will let you know the current time by highlighting that red, future time is green and past is gray. You can add content to the page if you have meetings, or tasks that need get done.</p>
                     <div class="btn-box d-flex flex-row justify-content-around w-50">
-                      <a href="https://norgard7.github.io/daily-planner/" target="_blank" class="btn btn-outline px-4" role="button">Open Project</a>
+                      <!-- first button opens deployed -->
+                      <a href="https://norgard7.github.io/daily-planner/" target="_blank" class="btn btn-outline px-4" aria-hidden="true"><span class="visually-hidden">Click to open project</span>Open Project</a>
+                      <!-- second button opens code -->
                       <a href="https://github.com/norgard7/daily-planner" target="_blank" class="btn btn-outline px-4" role="button">See Code</a>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -189,15 +190,16 @@
 
     <!-- carousel buttons/controls -->
     <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
     </a>
   </div>
-
+  
 </section>
-
 
     
     
