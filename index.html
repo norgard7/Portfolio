@@ -22,31 +22,32 @@
 <body>
     <header>
         <!-- Nav Bar -->
-
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid d-flex justify-content-between">
               <a class="navbar-brand" href="#">
-                <img src="./images/Lauren Norgard owl.png" alt="Owl icon Lauren Norgard" width="250" height="70" class="d-inline-block align-text-top"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/Lauren Norgard owl.png" alt="Owl icon Lauren Norgard" width="250" height="70" class="d-inline-block align-text-top">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            
+              <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="navbar-nav">
                   <a class="nav-link" href="#aboutme">About Me</a>
                   <a class="nav-link" href="#work">Work</a>
                   <a class="nav-link" href="#contactme">Contact Me</a>
-                  <a class="nav-link" href="./images/resume.pdf target="_blank">Resume</a>
-                  
+                  <a class="nav-link" href="./images/resume.pdf target="_blank">Resume</a> 
                 </div>
               </div>
             </div>
           </nav>
+         
     </header>
 
     <!-- Introduction-->
     <section class="container-fluid p-0">
         <figure class="position-relative">
-            <img class="me-img" src="images/Norgard Family Session 2021-3649.jpg">
+            <img class="me-img" src="images/Norgard Family Session 2021-3649.jpg" alt="picture of Lauren and son">
             <h2 id="quote">"Life doesn't have to <br>be perfect to be wonderful"<br> ~Annette Funicello</h2>
         </figure>
     </section>
@@ -56,7 +57,9 @@
         <section class="about-box section-box" id="aboutme">
             <div class="section-header">
                 <h3 class="aboutme">About Me</h3>
-        <section class="white-section" id="about">
+            </div>
+        </section>
+        <section id="about">
 
             <div class="container-fluid">
         
@@ -82,15 +85,16 @@
         
         
             </div>
-          </section>
+        </section>
         
         
         
 
 <!-- Work Section with Carosual -->
-<h3 id="my-work">My Work</h3>
+<section>
+  <h3 id="my-work">My Work</h3>
 <!-- first slide -->
-<div id="testimonial-carousel" class="carousel slide">
+  <div id="testimonial-carousel" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active container-background ">
             <div class="border-box-image d-flex justify-content-between">
@@ -160,21 +164,21 @@
             </div>
           </div>
       </div>
-  </div>
+    </div>
 
 
     <!-- carousel buttons/controls -->
     <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
+      <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-  <span class="carousel-control-next-icon"></span>
+      <span class="carousel-control-next-icon"></span>
     </a>
   </div>
 
 </section>
 
-  </section>
+
     
     
     <!-- Contact Me Section -->
