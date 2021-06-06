@@ -66,25 +66,20 @@ ul li a {
     display: block;
     text-align: center;
 }
-.fact-content {
-    border: #545556 3px dotted;
-    display: inline-block;
-    width: 25%;
-    margin: 2%;
-}
+
 .fact-boxes{
     margin-bottom: 10%;
 }
 
-#features {
+#about {
     position: relative;
   }
   
-  .feature-title {
+  .fact-title {
     font-size: 2.0rem;
   }
   
-  .feature-box {
+  .fact-box {
     padding: 2.5%;
     text-align: center;
   }
@@ -115,7 +110,6 @@ ul li a {
     text-align: center; 
 }
 
-
   .work-text {
     font-size: 3rem;
     line-height: 1.5;
@@ -130,7 +124,6 @@ ul li a {
 }
 .btn {
     width: 25%;
-    height: 8%;
     font-size: 1.5rem;
     border: #2f5d62 2px solid;
     
@@ -179,23 +172,23 @@ ul li a {
 
 
 /* this was added as a way to clean up the spacing when in a mobile version */
-.break {
+/* .break {
     margin-right: -64px;
     flex-basis: 0;
-}
+} */
 
 /* class for all my H4, probably didn't need. */
-.box-title {
+/* .box-title {
     font-size: 2rem;
     margin-bottom: .5rem;
-}
+} */
 /* h4 paragraph font size */
-.box-title p {
+/* .box-title p {
     font-size: 1.5rem;
-}
+} */
 
 
-@media screen and (max-width:992px) {
+/* @media screen and (max-width:992px) {
     .sml-image {
         width: 100%;
     }
@@ -210,9 +203,9 @@ ul li a {
         height: 2rem;
     }
     
-}
+} */
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
 
     h1 {
        width: 100%;
@@ -248,4 +241,4 @@ ul li a {
         
        
     }
-}
+} */
