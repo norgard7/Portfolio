@@ -4,12 +4,14 @@
 This portfolio was created June 2021 as a revamped version from the beginning of my first portfolio where I apply new skills and languageds. The projects connected to ths portfolio are front end. 
 
 Attached projects:
-Stock finder (group project) contains 2 APIS
-Weather Dashboard
-Password Generator
-Simon Game 
-Coding Quiz
-Daily Planner
+<ul>
+  <li>Stock finder (group project) contains 2 APIS</li>
+  <li>Weather Dashboard</li>
+  <li>Password Generator</li>
+  <li>Simon Game</li>
+  <li>Coding Quiz</li>
+  <li>Daily Planner</li>
+</ul>
 
 # Usage 
 These projects are meant to showcase my coding knowledge and skills. 
